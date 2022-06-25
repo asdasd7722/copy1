@@ -1,0 +1,77 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color:black;
+}
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+h4{
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+}
+.wrap{
+    height: 718px;
+    width: 1920px;
+    margin: auto;
+}
+.intro_bg{
+    background-image: url("./images/intro.png");
+    width: cover;
+    height: 718px;
+}
+.header{
+    height: 86px;
+    display: flex;
+    width: 1280px;
+    margin: auto;
+}
+.search_area{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.search_area input{
+    border: none;
+    width: 250px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+    color: white;
+    padding: 10px;
+}
+.search_area span{
+    width: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(1280px - 300px);
+    line-height: 86px;
+}
+.nav li{
+    margin-left: 84px;
+}
+.nav a{
+    color: white;
+}
+.intro_text{
+    text-align: center;
+    margin: 231px auto 0px auto;
+}
+.intro_text h1{
+    font-size: 48px;
+}
+.intro_text h1, h4{
+    color:white;
+}
