@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <style>
+            *{
+                border-collapse: collapse;
+                color: black;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+            }
+            div span, div div{
+                border: 1px solid white;
+            }
+            div span{
+                background-color: pink;
+                display: block;
+            }
+            div div{
+                background-color: orange;
+                flex: 1;
+            }
+            .flex{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <span>span</span>
+            <span>span</span>
+        </div>
+
+        <div class="flex">
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </body>
+</html>
